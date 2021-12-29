@@ -1,10 +1,21 @@
 export class Dish {
-  id: string | undefined;
-  name: string | undefined;
-  image: string | undefined;
-  category: string | undefined;
-  featured: boolean | undefined;
-  label: string | undefined;
-  price: string | undefined;
-  description: string | undefined;
+  constructor() {
+    this.id = '1';
+    this.name = 'Name Error';
+    this.image = '';
+    this.category = 'category';
+    this.featured = false;
+    this.label = 'ok';
+    this.price = '200$';
+    this.description = 'this will display if nothing comes';
+  }
+  id: string;
+  name: string;
+  image: string;
+  category: string;
+  featured: boolean;
+  label: string;
+  price: string;
+  description: string;
 }
+// vicks , tulsi, haldi wala milk, 
