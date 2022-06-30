@@ -18,4 +18,4 @@ export class Dish {
   price: string;
   description: string;
 }
-// vicks , tulsi, haldi wala milk, 
+[];
